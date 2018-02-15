@@ -1,0 +1,44 @@
+  Started on:            calculon
+  Started at:            Fri Mar 3 15:04:43 PST 2017
+number of threads 10
+reads 0
+long reads 3856
+extra reads 0
+read_length 0
+kmer 60
+kmers 25124 25217
+merge bubble 4
+contigs: 17 n50: 483 max: 1024 mean: 313 total length: 5326 n80: 355
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 80
+kmers 13761 13859
+merge bubble 0
+contigs: 13 n50: 483 max: 1024 mean: 397 total length: 5169 n80: 299
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 100
+kmers 14570 14659
+merge bubble 0
+contigs: 11 n50: 483 max: 1024 mean: 453 total length: 4986 n80: 358
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 120
+kmers 14961 15026
+merge bubble 0
+contigs: 16 n50: 423 max: 1024 mean: 382 total length: 6113 n80: 355
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 124
+kmers 12828 12889
+merge bubble 0
+contigs: 27 n50: 355 max: 1024 mean: 302 total length: 8179 n80: 204
+  Finished at:            Fri Mar 3 15:04:46 PST 2017

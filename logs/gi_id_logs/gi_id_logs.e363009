@@ -1,0 +1,9 @@
+ 	Full Command:                      python my_gi_to_taxid.py blastnquery_bowtie_true2_gi.txt /raid1/home/micro/klingesj/labhome/databases/ncbi_taxonomy/gi_taxid_nucl2017.dmp 
+	Memory (kb):                       80431040 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    4893 
+	CPU (percent):                     99% 
+	Time (seconds):                    8200.92 
+	Time (hh:mm:ss.ms):                2:16:40 
+	System CPU Time (seconds):         1176.15 
+	User   CPU Time (seconds):         7020.63 

@@ -1,0 +1,10 @@
+Building a SMALL index
+ 	Full Command:                      bowtie2-build /raid1/home/micro/klingesj/labhome/databases/NCBI_ref_seq_db/bacteria_genomes_2017.fna bowtie_complete_bacteria_genomes 
+	Memory (kb):                       417828 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    1979 
+	CPU (percent):                     99% 
+	Time (seconds):                    1504.33 
+	Time (hh:mm:ss.ms):                25:04.33 
+	System CPU Time (seconds):         1.75 
+	User   CPU Time (seconds):         1501.75 

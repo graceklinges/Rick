@@ -1,0 +1,9 @@
+ 	Full Command:                      /raid1/home/micro/klingesj/labhome/local/bin/idba/bin/fq2fa /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fq /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa 
+	Memory (kb):                       1492 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    22 
+	CPU (percent):                     19% 
+	Time (seconds):                    0.14 
+	Time (hh:mm:ss.ms):                0:00.14 
+	System CPU Time (seconds):         0.00 
+	User   CPU Time (seconds):         0.02 

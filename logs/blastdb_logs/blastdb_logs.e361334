@@ -1,0 +1,9 @@
+ 	Full Command:                      makeblastdb -in /raid1/home/micro/klingesj/labhome/databases/NCBI_ref_seq_db/bacteria_genomes_2017.fna -input_type fasta -title bacteria_genomes -dbtype nucl 
+	Memory (kb):                       16376 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    69 
+	CPU (percent):                     72% 
+	Time (seconds):                    5.65 
+	Time (hh:mm:ss.ms):                0:05.65 
+	System CPU Time (seconds):         0.27 
+	User   CPU Time (seconds):         3.83 

@@ -1,0 +1,13 @@
+  Started on:            microbiome
+  Started at:            Thu Mar 9 12:52:10 PST 2017
+
+
+Building a new DB, current time: 03/09/2017 12:52:10
+New DB name:   /raid1/home/micro/klingesj/labhome/databases/NCBI_ref_seq_db/bacteria_genomes_2017.fna
+New DB title:  bacteria_genomes
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 9855 sequences in 5.43499 seconds.
+  Finished at:            Thu Mar 9 12:52:16 PST 2017

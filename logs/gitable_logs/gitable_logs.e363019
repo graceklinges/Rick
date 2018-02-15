@@ -1,0 +1,10 @@
+java -ea -Xmx191583m -Xms191583m -cp /raid1/home/micro/klingesj/labhome/local/bin/bbmap/current/ tax.GiToNcbi /raid1/home/micro/klingesj/labhome/databases/ncbi_taxonomy/gi_taxid_nucl2017.dmp gitable.int1d.gz
+ 	Full Command:                      /raid1/home/micro/klingesj/labhome/local/bin/bbmap/gitable.sh /raid1/home/micro/klingesj/labhome/databases/ncbi_taxonomy/gi_taxid_nucl2017.dmp gitable.int1d.gz 
+	Memory (kb):                       54139592 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    73969 
+	CPU (percent):                     216% 
+	Time (seconds):                    974.88 
+	Time (hh:mm:ss.ms):                16:14.88 
+	System CPU Time (seconds):         192.71 
+	User   CPU Time (seconds):         1918.13 

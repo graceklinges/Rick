@@ -1,0 +1,24 @@
+13783448 reads; of these:
+  13783448 (100.00%) were paired; of these:
+    13781520 (99.99%) aligned concordantly 0 times
+    914 (0.01%) aligned concordantly exactly 1 time
+    1014 (0.01%) aligned concordantly >1 times
+    ----
+    13781520 pairs aligned concordantly 0 times; of these:
+      71 (0.00%) aligned discordantly 1 time
+    ----
+    13781449 pairs aligned 0 times concordantly or discordantly; of these:
+      27562898 mates make up the pairs; of these:
+        27555410 (99.97%) aligned 0 times
+        1763 (0.01%) aligned exactly 1 time
+        5725 (0.02%) aligned >1 times
+0.04% overall alignment rate
+ 	Full Command:                      /nfs1/MICRO/Thurber_Lab/local/bin/bowtie2-2.2.3/bowtie2 -1 /raid1/home/micro/klingesj/grace/Rickettsiales/lane1-s001-indexN703-S502-AGGCAGAA-CTCTCTAT-22B_S1_L001_R1_001.rick_trimmed -2 /raid1/home/micro/klingesj/grace/Rickettsiales/lane1-s001-indexN703-S502-AGGCAGAA-CTCTCTAT-22B_S1_L001_R2_001.rick_trimmed -x /raid1/home/micro/klingesj/grace/Rickettsiales/Refseq/bowtie_complete_bacteria_genomes -S bowtie_rick2.sam --al-conc conc_pair_rick --al aligned_single_rick --mp 4 -p 15 
+	Memory (kb):                       1043556 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    1757016 
+	CPU (percent):                     1464% 
+	Time (seconds):                    1351.61 
+	Time (hh:mm:ss.ms):                22:31.61 
+	System CPU Time (seconds):         5587.28 
+	User   CPU Time (seconds):         14202.20 

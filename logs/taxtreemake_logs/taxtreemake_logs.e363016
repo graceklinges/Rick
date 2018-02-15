@@ -1,0 +1,11 @@
+java -ea -Xmx189537m -Xms189537m -cp /raid1/home/micro/klingesj/labhome/local/bin/bbmap/current/ tax.TaxTree names.dmp nodes.dmp tree.taxtree.gz
+Assigned levels to 196382 unranked nodes.
+ 	Full Command:                      /raid1/home/micro/klingesj/labhome/local/bin/bbmap/taxtree.sh names.dmp nodes.dmp tree.taxtree.gz 
+	Memory (kb):                       4041616 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    9584 
+	CPU (percent):                     100% 
+	Time (seconds):                    81.79 
+	Time (hh:mm:ss.ms):                1:21.79 
+	System CPU Time (seconds):         4.47 
+	User   CPU Time (seconds):         77.31 

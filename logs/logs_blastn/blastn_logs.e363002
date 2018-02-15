@@ -1,0 +1,9 @@
+ 	Full Command:                      blastn -db /raid1/home/micro/klingesj/grace/Rickettsiales/Refseq/bacteria_genomes_2017.fna -evalue 10e-20 -outfmt 6 -num_threads 10 -max_target_seqs 1 -query /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa -out /raid1/home/micro/klingesj/grace/Rickettsiales/blastnquery_bowtie_true2 
+	Memory (kb):                       166824 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    2459 
+	CPU (percent):                     137% 
+	Time (seconds):                    1.61 
+	Time (hh:mm:ss.ms):                0:01.61 
+	System CPU Time (seconds):         0.24 
+	User   CPU Time (seconds):         1.97 

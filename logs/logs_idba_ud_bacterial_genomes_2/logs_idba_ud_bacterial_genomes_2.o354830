@@ -1,0 +1,44 @@
+  Started on:            microbiome
+  Started at:            Fri Mar 3 15:16:33 PST 2017
+number of threads 10
+reads 0
+long reads 3856
+extra reads 0
+read_length 0
+kmer 20
+kmers 25077 25662
+merge bubble 11
+contigs: 120 n50: 232 max: 1024 mean: 75 total length: 9046 n80: 39
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 40
+kmers 28004 28456
+merge bubble 0
+contigs: 20 n50: 488 max: 1024 mean: 302 total length: 6051 n80: 331
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 60
+kmers 31675 32018
+merge bubble 0
+contigs: 20 n50: 508 max: 1024 mean: 318 total length: 6360 n80: 307
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 80
+kmers 30986 31213
+merge bubble 0
+contigs: 16 n50: 534 max: 1024 mean: 389 total length: 6238 n80: 307
+aligned 0 reads
+confirmed bases: 0 correct reads: 0 bases: 0
+distance mean -nan sd -nan
+invalid insert distance
+kmer 100
+kmers 27625 27782
+merge bubble 0
+contigs: 39 n50: 299 max: 1024 mean: 250 total length: 9757 n80: 163
+  Finished at:            Fri Mar 3 15:16:36 PST 2017

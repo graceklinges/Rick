@@ -1,0 +1,10 @@
+BLAST Database error: No alias or index file found for nucleotide database [/raid1/home/micro/klingesj/grace/Rickettsiales/Refseq/bowtie_complete_bacteria_genomes] in search path [/nfs1/MICRO/Thurber_Lab/grace/Rickettsiales/logs:/nfs1/CGRB/BlastDB/NCBI:]
+ 	Full Command:                      /local/cluster/ncbi-blast-2.2.31+-rpsbproc/bin/blastn -db /raid1/home/micro/klingesj/grace/Rickettsiales/Refseq/bowtie_complete_bacteria_genomes -evalue 10e-20 -outfmt 6 -num_threads 10 -max_target_seqs 1 -query /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa -out /raid1/home/micro/klingesj/grace/Rickettsiales/blastnquery_bowtie_true 
+	Memory (kb):                       11572 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    39 
+	CPU (percent):                     21% 
+	Time (seconds):                    0.13 
+	Time (hh:mm:ss.ms):                0:00.13 
+	System CPU Time (seconds):         0.01 
+	User   CPU Time (seconds):         0.01 

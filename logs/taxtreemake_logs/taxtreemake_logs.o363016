@@ -1,0 +1,37 @@
+  Started on:            microbiome
+  Started at:            Fri Mar 10 15:01:44 PST 2017
+Retained 1552577 nodes:
+1	life
+0	domain
+5	superkingdom
+3	kingdom
+1	subkingdom
+2	superphylum
+219	phylum
+27	subphylum
+5	superclass
+310	class
+130	subclass
+16	infraclass
+50	superorder
+1401	order
+317	suborder
+96	infraorder
+10	parvorder
+797	superfamily
+8438	family
+2660	subfamily
+1913	tribe
+467	subtribe
+80825	genus
+1267	subgenus
+404	species group
+132	species subgroup
+1218124	species
+216520	subspecies
+6611	varietas
+460	forma
+11366	no rank
+
+Time: 	10.969 seconds.
+  Finished at:            Fri Mar 10 15:03:06 PST 2017

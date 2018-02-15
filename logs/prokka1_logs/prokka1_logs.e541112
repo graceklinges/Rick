@@ -1,0 +1,608 @@
+[16:56:07] This is prokka 1.11
+[16:56:07] Written by Torsten Seemann <torsten.seemann@monash.edu>
+[16:56:07] Victorian Bioinformatics Consortium - http://www.vicbioinformatics.com
+[16:56:07] Local time is Tue Apr 18 16:56:07 2017
+[16:56:07] You are klingesj
+[16:56:07] Operating system is linux
+[16:56:07] You have BioPerl 1.007000
+[16:56:07] System has 64 cores.
+[16:56:07] Will use maximum of 8 cores.
+[16:56:07] Annotating as >>> Bacteria <<<
+[16:56:07] Creating new output folder: prokka1
+[16:56:07] Running: mkdir -p prokka1
+[16:56:07] Using filename prefix: Rick.XXX
+[16:56:07] Setting HMMER_NCPU=1
+[16:56:07] Writing log to: prokka1/Rick.log
+[16:56:07] Command: --outdir prokka1 --prefix Rick --metagenome round6.final.scaffolds.fasta
+[16:56:07] Looking for 'aragorn' - found /local/cluster/prokka-1.11/bin/../binaries/linux/aragorn
+[16:56:07] Determined aragorn version is 1.2
+[16:56:07] Looking for 'barrnap' - found /local/cluster/barrnap-0.6/bin/barrnap
+[16:56:08] Determined barrnap version is 0.6
+[16:56:08] Looking for 'blastp' - found /local/cluster/ncbi-blast-2.2.31+-rpsbproc/bin/blastp
+[16:56:08] Determined blastp version is 2.2
+[16:56:08] Looking for 'cmpress' - found /local/cluster/bin/cmpress
+[16:56:08] Determined cmpress version is 1.1
+[16:56:08] Looking for 'cmscan' - found /local/cluster/bin/cmscan
+[16:56:08] Determined cmscan version is 1.1
+[16:56:08] Looking for 'egrep' - found /bin/egrep
+[16:56:08] Looking for 'find' - found /bin/find
+[16:56:08] Looking for 'grep' - found /bin/grep
+[16:56:08] Looking for 'hmmpress' - found /local/cluster/hmmer/bin/hmmpress
+[16:56:08] Determined hmmpress version is 3.1
+[16:56:08] Looking for 'hmmscan' - found /local/cluster/hmmer/bin/hmmscan
+[16:56:08] Determined hmmscan version is 3.1
+[16:56:08] Looking for 'less' - found /bin/less
+[16:56:08] Looking for 'makeblastdb' - found /local/cluster/ncbi-blast-2.2.31+-rpsbproc/bin/makeblastdb
+[16:56:08] Determined makeblastdb version is 2.2
+[16:56:08] Looking for 'minced' - found /local/cluster/prokka-1.11/bin/../binaries/linux/../common/minced
+[16:56:08] Determined minced version is 1.6
+[16:56:08] Looking for 'parallel' - found /local/cluster/bin/parallel
+[16:56:09] Determined parallel version is 20160822
+[16:56:09] Looking for 'prodigal' - found /local/cluster/bin/prodigal
+[16:56:09] Determined prodigal version is 2.6
+[16:56:09] Looking for 'prokka-genbank_to_fasta_db' - found /local/cluster/prokka/bin/prokka-genbank_to_fasta_db
+[16:56:09] Looking for 'rnammer' - found /local/cluster/rnammer/rnammer
+[16:56:09] Determined rnammer version is 1.2
+[16:56:09] Looking for 'sed' - found /bin/sed
+[16:56:09] Looking for 'tbl2asn' - found /local/cluster/bin/tbl2asn
+[tbl2asn] This copy of tbl2asn is more than a year old.  Please download the current version.
+[16:56:09] Determined tbl2asn version is 24.3
+[16:56:09] Using genetic code table 11.
+[16:56:09] Loading and checking input file: round6.final.scaffolds.fasta
+[16:56:09] Wrote 188 contigs
+[16:56:09] Predicting tRNAs and tmRNAs
+[16:56:09] Running: aragorn -gc11  -w prokka1\/Rick\.fna
+[16:56:10] 1 tRNA-Trp c[17525,17600] 34 (cca)
+[16:56:10] 1 tmRNA* c[18704,19046] 196,252 ANKKFVPANNNNAFALAA*
+[16:56:10] 1 tRNA-Asn c[6342,6416] 33 (gtt)
+[16:56:10] 2 tRNA-Met [28788,28864] 35 (cat)
+[16:56:10] 1 tRNA-Arg c[15412,15488] 35 (cct)
+[16:56:10] 1 tRNA-Asp c[4270,4346] 35 (gtc)
+[16:56:10] 2 tRNA-Val c[4365,4440] 34 (tac)
+[16:56:10] 1 tRNA-Arg c[14058,14134] 35 (acg)
+[16:56:10] 1 tRNA-Arg c[3088,3164] 35 (ccg)
+[16:56:10] 1 tRNA-Leu [2843,2928] 34 (caa)
+[16:56:10] 1 tRNA-His [2061,2137] 35 (gtg)
+[16:56:10] 1 tRNA-Gln c[12116,12190] 33 (ttg)
+[16:56:10] 1 tRNA-Met [423,496] 35 (cat)
+[16:56:10] 2 tRNA-Thr [504,578] 33 (ggt)
+[16:56:10] 1 tRNA-seC [16102,16171] 32 (tca)
+[16:56:10] 1 tRNA-Leu c[6915,7004] 35 (gag)
+[16:56:10] 1 tRNA-Met [5941,6017] 35 (cat)
+[16:56:10] 1 tRNA-Tyr [6926,7011] 35 (gta)
+[16:56:10] 1 tRNA-Ala c[7793,7868] 34 (tgc)
+[16:56:10] 2 tRNA-Gly c[7873,7947] 33 (gcc)
+[16:56:10] 1 tRNA-Leu c[4584,4671] 35 (taa)
+[16:56:10] 1 tRNA-Pro [4503,4579] 35 (tgg)
+[16:56:10] 1 tRNA-Ser c[5460,5549] 35 (gct)
+[16:56:10] 1 tRNA-Thr [6088,6162] 33 (tgt)
+[16:56:10] 1 tRNA-Ser [1700,1789] 35 (gga)
+[16:56:10] 1 tRNA-Ile c[582,658] 35 (gat)
+[16:56:10] 1 tRNA-Val [6053,6129] 35 (gac)
+[16:56:10] 1 tRNA-Thr c[1823,1897] 33 (cgt)
+[16:56:10] 2 tRNA-Leu [4271,4355] 35 (tag)
+[16:56:10] 1 tRNA-Glu [424,499] 35 (ttc)
+[16:56:10] 2 tRNA-Phe [523,598] 34 (gaa)
+[16:56:10] 1 tRNA-Lys [5084,5159] 34 (ttt)
+[16:56:10] 1 tRNA-Ser c[561,650] 35 (tga)
+[16:56:10] 1 tRNA-Cys [822,894] 33 (gca)
+[16:56:10] 1 tRNA-Arg [1333,1409] 35 (tct)
+[16:56:10] 1 tRNA-Trp [323,395] 34 (cca)
+[16:56:10] 1 tRNA-Met [1715,1789] 35 (cat)
+[16:56:10] 1 tRNA-Pro [1447,1521] 35 (tgg)
+[16:56:10] Found 38 tRNAs
+[16:56:10] Predicting Ribosomal RNAs
+[16:56:10] Running Barrnap with 8 threads
+[16:56:13] 1 scaffold109|size4347 454 16S ribosomal RNA
+[16:56:13] 2 scaffold119|size3694 163 5S ribosomal RNA
+[16:56:13] 3 scaffold119|size3694 375 23S ribosomal RNA
+[16:56:13] Found 3 rRNAs
+[16:56:13] Skipping ncRNA search, enable with --rfam if desired.
+[16:56:13] Total of 40 tRNA + rRNA features
+[16:56:13] Searching for CRISPR repeats
+[16:56:14] Found 0 CRISPRs
+[16:56:14] Predicting coding sequences
+[16:56:14] Contigs total 1365066 bp, so using meta mode
+[16:56:14] Running: prodigal -i prokka1\/Rick\.fna -c -m -g 11 -p meta -f sco -q
+[16:56:14] Excluding CDS which overlaps existing RNA (tRNA) at scaffold7|size21881:3164..3640 on - strand
+[16:56:16] Excluding CDS which overlaps existing RNA (tRNA) at scaffold70|size7453:198..617 on - strand
+[16:56:16] Excluding CDS which overlaps existing RNA (tRNA) at scaffold78|size7007:4165..4347 on - strand
+[16:56:17] Excluding CDS which overlaps existing RNA (rRNA) at scaffold119|size3694:2601..2777 on - strand
+[16:56:17] Excluding CDS which overlaps existing RNA (rRNA) at scaffold119|size3694:2966..3103 on - strand
+[16:56:17] Found 1389 CDS
+[16:56:17] Connecting features back to sequences
+[16:56:17] Not using genus-specific database. Try --usegenus to enable it.
+[16:56:17] Annotating CDS, please be patient.
+[16:56:17] Will use 8 CPUs for similarity searching.
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold133|size2670]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold134|size2584]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold138|size2433]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold141|size2323]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold141|size2323]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold144|size2280]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold159|size1563]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold170|size1168]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:56:18] There are still 1389 unannotated CDS left (started with 1389)
+[16:56:18] Will use blast to search against /local/cluster/prokka-1.11/bin/../db/kingdom/Bacteria/sprot with 8 CPUs
+[16:56:18] Running: cat prokka1\/sprot\.faa | parallel --gnu --plain -j 8 --block 23455 --recstart '>' --pipe blastp -query - -db /local/cluster/prokka-1.11/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > prokka1\/sprot\.blast 2> /dev/null
+[16:56:38] Modify product: Probable transcriptional regulatory protein YebC => putative transcriptional regulatory protein YebC
+[16:56:38] Modify product: Transcription termination/antitermination protein NusG => hypothetical protein
+[16:56:38] Modify product: Probable phospholipid-binding protein MlaC precursor => putative phospholipid-binding protein MlaC precursor
+[16:56:38] Modify product: Probable phospholipid-binding lipoprotein MlaA precursor => putative phospholipid-binding lipoprotein MlaA precursor
+[16:56:38] Modify product: Probable peptidoglycan biosynthesis protein MurJ => putative peptidoglycan biosynthesis protein MurJ
+[16:56:38] Modify product: Probable dipeptide and tripeptide permease YjdL => putative dipeptide and tripeptide permease YjdL
+[16:56:38] Modify product: Transcription termination factor Rho => hypothetical protein
+[16:56:39] Modify product: Uncharacterized MFS-type transporter YcaD => putative MFS-type transporter YcaD
+[16:56:39] Modify product: Probable inorganic polyphosphate/ATP-NAD kinase => putative inorganic polyphosphate/ATP-NAD kinase
+[16:56:39] Modify product: Carbon storage regulator homolog => hypothetical protein
+[16:56:39] Modify product: Uncharacterized deoxyribonuclease YcfH => putative deoxyribonuclease YcfH
+[16:56:39] Modify product: Probable GTP-binding protein EngB => putative GTP-binding protein EngB
+[16:56:39] Modify product: Probable copper-transporting ATPase PacS => putative copper-transporting ATPase PacS
+[16:56:39] Modify product: Probable DEAD-box ATP-dependent RNA helicase SA1885 => putative DEAD-box ATP-dependent RNA helicase
+[16:56:39] Modify product: Probable propionyl-CoA carboxylase beta chain 5 => putative propionyl-CoA carboxylase beta chain 5
+[16:56:39] Modify product: Uncharacterized ABC transporter ATP-binding protein TM_0288 => putative ABC transporter ATP-binding protein
+[16:56:39] Modify product: Probable periplasmic serine endoprotease DegP-like precursor => putative periplasmic serine endoprotease DegP-like precursor
+[16:56:39] Modify product: Probable glycerol-3-phosphate acyltransferase => putative glycerol-3-phosphate acyltransferase
+[16:56:39] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[16:56:39] Modify product: Probable 5-formyltetrahydrofolate cyclo-ligase => putative 5-formyltetrahydrofolate cyclo-ligase
+[16:56:39] Modify product: DNA repair protein RadA homolog => hypothetical protein
+[16:56:39] Modify product: Uncharacterized lipoprotein YbbD precursor => putative lipoprotein YbbD precursor
+[16:56:39] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[16:56:39] Modify product: Uncharacterized amino acid permease YhdG => putative amino acid permease YhdG
+[16:56:39] Modify product: Uncharacterized amino acid permease YhdG => putative amino acid permease YhdG
+[16:56:40] Modify product: Uncharacterized ABC transporter ATP-binding protein YheS => putative ABC transporter ATP-binding protein YheS
+[16:56:40] Modify product: Putative O-methyltransferase MSMEG_5073/MSMEI_4947 => Putative O-methyltransferase/MSMEI_4947
+[16:56:40] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[16:56:40] Modify product: Uncharacterized isomerase YddE => putative isomerase YddE
+[16:56:40] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[16:56:40] Modify product: Probable murein peptide carboxypeptidase => putative murein peptide carboxypeptidase
+[16:56:40] Modify product: Nucleoid-associated protein Cthe_2143 => Nucleoid-associated protein
+[16:56:40] Modify product: Uncharacterized peptidase SA1530 => putative peptidase
+[16:56:40] Modify product: Probable peroxiredoxin => putative peroxiredoxin
+[16:56:40] Modify product: Cytochrome c oxidase subunit 1 homolog, bacteroid => hypothetical protein
+[16:56:40] Modify product: Probable phospholipid ABC transporter permease protein MlaE => putative phospholipid ABC transporter permease protein MlaE
+[16:56:40] Modify product: Probable amino-acid import ATP-binding protein YxeO => putative amino-acid import ATP-binding protein YxeO
+[16:56:40] Modify product: N utilization substance protein B homolog => hypothetical protein
+[16:56:41] Modify product: Probable phospholipid ABC transporter-binding protein MlaD => putative phospholipid ABC transporter-binding protein MlaD
+[16:56:41] Modify product: Transcription termination/antitermination protein NusA => hypothetical protein
+[16:56:41] Modify product: Putative adhesin RC1281 precursor => Putative adhesin precursor
+[16:56:41] Modify product: Uncharacterized symporter YidK => putative symporter YidK
+[16:56:41] Modify product: Probable CtpA-like serine protease => putative CtpA-like serine protease
+[16:56:41] Modify product: Probable protease SohB => putative protease SohB
+[16:56:41] Cleaned 44 /product names
+[16:56:41] Deleting unwanted file: prokka1/sprot.faa
+[16:56:41] Deleting unwanted file: prokka1/sprot.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold133|size2670]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold134|size2584]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold138|size2433]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold141|size2323]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold144|size2280]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold159|size1563]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold170|size1168]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:56:42] There are still 681 unannotated CDS left (started with 1389)
+[16:56:42] Will use hmmer3 to search against /local/cluster/prokka-1.11/bin/../db/hmm/CLUSTERS.hmm with 8 CPUs
+[16:56:42] Running: cat prokka1\/CLUSTERS\.hmm\.faa | parallel --gnu --plain -j 8 --block 8492 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /local/cluster/prokka-1.11/bin/../db/hmm/CLUSTERS.hmm /dev/stdin > prokka1\/CLUSTERS\.hmm\.hmmer3 2> /dev/null
+[16:57:27] Deleting unwanted file: prokka1/CLUSTERS.hmm.faa
+[16:57:27] Deleting unwanted file: prokka1/CLUSTERS.hmm.hmmer3
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold133|size2670]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold134|size2584]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold138|size2433]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold141|size2323]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold144|size2280]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold159|size1563]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold170|size1168]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:57:28] There are still 581 unannotated CDS left (started with 1389)
+[16:57:28] Will use hmmer3 to search against /local/cluster/prokka-1.11/bin/../db/hmm/HAMAP.hmm with 8 CPUs
+[16:57:28] Running: cat prokka1\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 8 --block 6968 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /local/cluster/prokka-1.11/bin/../db/hmm/HAMAP.hmm /dev/stdin > prokka1\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[16:57:40] Deleting unwanted file: prokka1/HAMAP.hmm.faa
+[16:57:40] Deleting unwanted file: prokka1/HAMAP.hmm.hmmer3
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold105|size4831]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold122|size3305]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold133|size2670]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold134|size2584]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold138|size2433]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold139|size2326]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold141|size2323]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold144|size2280]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold159|size1563]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [scaffold170|size1168]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:57:41] There are still 570 unannotated CDS left (started with 1389)
+[16:57:41] Will use hmmer3 to search against /local/cluster/prokka-1.11/bin/../db/hmm/Pfam.hmm with 8 CPUs
+[16:57:41] Running: cat prokka1\/Pfam\.hmm\.faa | parallel --gnu --plain -j 8 --block 6846 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /local/cluster/prokka-1.11/bin/../db/hmm/Pfam.hmm /dev/stdin > prokka1\/Pfam\.hmm\.hmmer3 2> /dev/null
+[16:58:19] Modify product: Helix-turn-helix domain => Helix-turn-helix domain protein
+[16:58:19] Modify product: Tetratricopeptide repeat => Tetratricopeptide repeat protein
+[16:58:19] Modify product: Endonuclease/Exonuclease/phosphatase family => Endonuclease/Exonuclease/phosphatase family protein
+[16:58:19] Modify product: Transposase IS66 family => Transposase IS66 family protein
+[16:58:19] Modify product: RmuC family => RmuC family protein
+[16:58:19] Modify product: Tetratricopeptide repeat => Tetratricopeptide repeat protein
+[16:58:19] Modify product: NfeD-like C-terminal, partner-binding => hypothetical protein
+[16:58:19] Modify product: FeoA domain => FeoA domain protein
+[16:58:19] Modify product: putative permease YjgP/YjgQ family => putative permease YjgP/YjgQ family protein
+[16:58:19] Modify product: SmpA / OmlA family => SmpA / OmlA family protein
+[16:58:19] Modify product: Bacterial Peptidase A24 N-terminal domain => hypothetical protein
+[16:58:19] Modify product: EamA-like transporter family => EamA-like transporter family protein
+[16:58:19] Modify product: Sec7 domain => Sec7 domain protein
+[16:58:19] Modify product: Transposase IS66 family => Transposase IS66 family protein
+[16:58:19] Modify product: Protein kinase domain => Protein kinase domain protein
+[16:58:19] Modify product: RDD family => RDD family protein
+[16:58:19] Modify product: Bacterial SH3 domain => Bacterial SH3 domain protein
+[16:58:19] Modify product: Tim44-like domain => Tim44-like domain protein
+[16:58:19] Modify product: Sodium:dicarboxylate symporter family => Sodium:dicarboxylate symporter family protein
+[16:58:19] Modify product: Alanine racemase, N-terminal domain => hypothetical protein
+[16:58:19] Modify product: Integrase core domain => Integrase core domain protein
+[16:58:19] Modify product: Alpha/beta hydrolase family => Alpha/beta hydrolase family protein
+[16:58:20] Modify product: NMT1/THI5 like => NMT1/THI5 like protein
+[16:58:20] Modify product: TrbC/VIRB2 family => TrbC/VIRB2 family protein
+[16:58:20] Modify product: Cytidylyltransferase family => Cytidylyltransferase family protein
+[16:58:20] Modify product: RDD family => RDD family protein
+[16:58:20] Modify product: PAP2 superfamily => PAP2 superfamily protein
+[16:58:20] Modify product: Zinc-finger domain => Zinc-finger domain protein
+[16:58:20] Modify product: SnoaL-like domain => SnoaL-like domain protein
+[16:58:20] Modify product: Transposase IS66 family => Transposase IS66 family protein
+[16:58:20] Modify product: Fic/DOC family => Fic/DOC family protein
+[16:58:20] Modify product: Flagellin hook IN motif => Flagellin hook IN motif protein
+[16:58:20] Modify product: Sodium:dicarboxylate symporter family => Sodium:dicarboxylate symporter family protein
+[16:58:20] Modify product: EVE domain => EVE domain protein
+[16:58:20] Modify product: Integrase core domain => Integrase core domain protein
+[16:58:20] Modify product: Acetyltransferase (GNAT) family => Acetyltransferase (GNAT) family protein
+[16:58:20] Modify product: 4Fe-4S binding domain => 4Fe-4S binding domain protein
+[16:58:20] Modify product: DnaJ domain => DnaJ domain protein
+[16:58:20] Modify product: EamA-like transporter family => EamA-like transporter family protein
+[16:58:20] Modify product: EamA-like transporter family => EamA-like transporter family protein
+[16:58:20] Modify product: Uracil DNA glycosylase superfamily => Uracil DNA glycosylase superfamily protein
+[16:58:20] Modify product: TraG-like protein, N-terminal region => hypothetical protein
+[16:58:20] Modify product: TrbC/VIRB2 family => TrbC/VIRB2 family protein
+[16:58:20] Modify product: LemA family => LemA family protein
+[16:58:20] Modify product: Terminase-like family => Terminase-like family protein
+[16:58:20] Modify product: Phage capsid family => Phage capsid family protein
+[16:58:20] Modify product: 4Fe-4S dicluster domain => 4Fe-4S dicluster domain protein
+[16:58:20] Modify product: EVE domain => EVE domain protein
+[16:58:20] Modify product: WLM domain => WLM domain protein
+[16:58:20] Modify product: putative permease YjgP/YjgQ family => putative permease YjgP/YjgQ family protein
+[16:58:20] Modify product: ETC complex I subunit conserved region => hypothetical protein
+[16:58:20] Modify product: COQ9 => hypothetical protein
+[16:58:20] Cleaned 52 /product names
+[16:58:20] Deleting unwanted file: prokka1/Pfam.hmm.faa
+[16:58:20] Deleting unwanted file: prokka1/Pfam.hmm.hmmer3
+[16:58:20] Labelling remaining 463 proteins as 'hypothetical protein'
+[16:58:20] Possible /pseudo 'putative amino acid permease YhdG' at scaffold2|size32621 position 28013
+[16:58:20] Possible /pseudo 'Uridine kinase' at scaffold7|size21881 position 15021
+[16:58:20] Possible /pseudo 'Peptide deformylase' at scaffold8|size21630 position 9483
+[16:58:20] Possible /pseudo 'Cytochrome b' at scaffold17|size18205 position 5230
+[16:58:20] Possible /pseudo 'NADH:ubiquinone oxidoreductase subunit J' at scaffold17|size18205 position 7744
+[16:58:20] Possible /pseudo 'NADH:ubiquinone oxidoreductase subunit M' at scaffold17|size18205 position 9397
+[16:58:20] Possible /pseudo 'Pentapeptide repeats (8 copies)' at scaffold19|size17415 position 1601
+[16:58:20] Possible /pseudo 'Glutamine synthetase 2' at scaffold38|size10822 position 9174
+[16:58:20] Possible /pseudo 'flagellar motor switch protein FliM' at scaffold44|size10301 position 1574
+[16:58:20] Possible /pseudo 'EamA-like transporter family protein' at scaffold57|size8641 position 7788
+[16:58:20] Possible /pseudo 'Adenosylmethionine-8-amino-7-oxononanoate aminotransferase' at scaffold67|size7663 position 3335
+[16:58:20] Possible /pseudo 'S-adenosylmethionine synthase' at scaffold72|size7338 position 2467
+[16:58:20] Possible /pseudo 'Flagellar biosynthetic protein FliP precursor' at scaffold75|size7183 position 4159
+[16:58:20] Possible /pseudo 'Competence protein ComM' at scaffold97|size5692 position 847
+[16:58:20] Possible /pseudo 'Fumarate hydratase class II' at scaffold103|size5255 position 1501
+[16:58:20] Possible /pseudo 'Coupling protein TraD' at scaffold115|size3813 position 370
+[16:58:20] Possible /pseudo 'Putative malate transporter YflS' at scaffold116|size3765 position 2938
+[16:58:20] Found 626 unique /gene codes.
+[16:58:20] Fixed 3 duplicate /gene - def_1 def_2 def_3
+[16:58:20] Fixed 2 duplicate /gene - yflS_1 yflS_2
+[16:58:20] Fixed 2 duplicate /gene - atpD_1 atpD_2
+[16:58:20] Fixed 2 duplicate /gene - nuoK_1 nuoK_2
+[16:58:20] Fixed 2 duplicate /gene - bioA_1 bioA_2
+[16:58:20] Fixed 2 duplicate /gene - xerD_1 xerD_2
+[16:58:20] Fixed 3 duplicate /gene - ribN_1 ribN_2 ribN_3
+[16:58:20] Fixed 3 duplicate /gene - fumC_1 fumC_2 fumC_3
+[16:58:20] Fixed 2 duplicate /gene - nuoL_1 nuoL_2
+[16:58:20] Fixed 7 duplicate /gene - proP_1 proP_2 proP_3 proP_4 proP_5 proP_6 proP_7
+[16:58:20] Fixed 2 duplicate /gene - virB4_1 virB4_2
+[16:58:20] Fixed 2 duplicate /gene - phoB_1 phoB_2
+[16:58:20] Fixed 2 duplicate /gene - hin_1 hin_2
+[16:58:20] Fixed 2 duplicate /gene - ctaE_1 ctaE_2
+[16:58:20] Fixed 2 duplicate /gene - ssb_1 ssb_2
+[16:58:20] Fixed 2 duplicate /gene - hflK_1 hflK_2
+[16:58:20] Fixed 2 duplicate /gene - comM_1 comM_2
+[16:58:20] Fixed 7 duplicate /gene - cqsS_1 cqsS_2 cqsS_3 cqsS_4 cqsS_5 cqsS_6 cqsS_7
+[16:58:20] Fixed 2 duplicate /gene - tufA_1 tufA_2
+[16:58:20] Fixed 2 duplicate /gene - bdbD_1 bdbD_2
+[16:58:20] Fixed 2 duplicate /gene - atpB_1 atpB_2
+[16:58:20] Fixed 2 duplicate /gene - pagN_1 pagN_2
+[16:58:20] Fixed 2 duplicate /gene - ndhC_1 ndhC_2
+[16:58:20] Fixed 2 duplicate /gene - ptrB_1 ptrB_2
+[16:58:20] Fixed 2 duplicate /gene - sad_1 sad_2
+[16:58:20] Fixed 2 duplicate /gene - maeA_1 maeA_2
+[16:58:20] Fixed 2 duplicate /gene - guaA_1 guaA_2
+[16:58:20] Fixed 3 duplicate /gene - rsh_1 rsh_2 rsh_3
+[16:58:20] Fixed 2 duplicate /gene - virB9_1 virB9_2
+[16:58:20] Fixed 2 duplicate /gene - nuoM_1 nuoM_2
+[16:58:20] Fixed 2 duplicate /gene - mfd_1 mfd_2
+[16:58:20] Fixed 2 duplicate /gene - tadA_1 tadA_2
+[16:58:20] Fixed 2 duplicate /gene - glnII_1 glnII_2
+[16:58:20] Fixed 2 duplicate /gene - metK_1 metK_2
+[16:58:20] Fixed 2 duplicate /gene - traD_1 traD_2
+[16:58:20] Fixed 4 duplicate /gene - petB_1 petB_2 petB_3 petB_4
+[16:58:20] Fixed 2 duplicate /gene - nuoH_1 nuoH_2
+[16:58:20] Fixed 2 duplicate /gene - dnaX_1 dnaX_2
+[16:58:20] Fixed 2 duplicate /gene - nuoN_1 nuoN_2
+[16:58:20] Fixed 2 duplicate /gene - fliP_1 fliP_2
+[16:58:20] Fixed 2 duplicate /gene - yhdG_1 yhdG_2
+[16:58:20] Fixed 2 duplicate /gene - udk_1 udk_2
+[16:58:20] Fixed 42 colliding /gene names.
+[16:58:20] Adding /locus_tag identifiers
+[16:58:20] Assigned 1430 locus_tags to CDS and RNA features.
+[16:58:20] Writing outputs to prokka1/
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01265]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01266]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01267]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01268]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01329]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01330]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01362]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01363]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01369]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01372]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01373]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01376]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01377]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01381]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01408]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [PROKKA_01420]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:58:22] Generating annotation statistics file
+[16:58:22] Generating Genbank and Sequin files
+[16:58:22] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z prokka1\/Rick\.err -i prokka1\/Rick\.fsa 2> /dev/null
+[16:58:22] Could not run command: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.11 from http://www.vicbioinformatics.com' -Z prokka1\/Rick\.err -i prokka1\/Rick\.fsa 2> /dev/null
+ 	Full Command:                      prokka --outdir prokka1 --prefix Rick --metagenome round6.final.scaffolds.fasta 
+	Memory (kb):                       350996 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    4730814 
+	CPU (percent):                     720% 
+	Time (seconds):                    135.11 
+	Time (hh:mm:ss.ms):                2:15.11 
+	System CPU Time (seconds):         429.23 
+	User   CPU Time (seconds):         544.75 

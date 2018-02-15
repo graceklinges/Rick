@@ -1,0 +1,11 @@
+terminate called after throwing an instance of 'std::logic_error'
+  what():  SequenceReader::SequenceReader() istream is invalid
+ 	Full Command:                      /nfs1/MICRO/Thurber_Lab/local/bin/idba/bin/idba_ud -l /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged.fa --num_threads 10 -o rick1_bacterial2_idba_ud_out 
+	Memory (kb):                       72760 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    77691 
+	CPU (percent):                     638% 
+	Time (seconds):                    3.72 
+	Time (hh:mm:ss.ms):                0:03.72 
+	System CPU Time (seconds):         0.48 
+	User   CPU Time (seconds):         23.28 

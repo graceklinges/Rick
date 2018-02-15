@@ -1,0 +1,9 @@
+ 	Full Command:                      python /raid1/home/micro/klingesj/grace/Rickettsiales/Full_taxon_lineage.py /raid1/home/micro/klingesj/grace/Rickettsiales/query_gi_to_taxid.txt /raid1/home/micro/klingesj/grace/Rickettsiales/gi_taxon_lineage.txt 
+	Memory (kb):                       3798280 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    2283 
+	CPU (percent):                     99% 
+	Time (seconds):                    130.03 
+	Time (hh:mm:ss.ms):                2:10.03 
+	System CPU Time (seconds):         19.54 
+	User   CPU Time (seconds):         110.22 

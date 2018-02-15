@@ -1,0 +1,9 @@
+ 	Full Command:                      gunzip /raid1/home/micro/klingesj/grace/Rickettsiales/data/second_sequencing_run/lane1-s001-indexN703-S502-AGGCAGAA-CTCTCTAT-22B_S1_L001_R1_001.fastq.gz /raid1/home/micro/klingesj/grace/Rickettsiales/data/second_sequencing_run/lane1-s001-indexN703-S502-AGGCAGAA-CTCTCTAT-22B_S1_L001_R2_001.fastq.gz 
+	Memory (kb):                       1500 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    37510 
+	CPU (percent):                     9% 
+	Time (seconds):                    3218.27 
+	Time (hh:mm:ss.ms):                53:38.27 
+	System CPU Time (seconds):         30.45 
+	User   CPU Time (seconds):         270.42 

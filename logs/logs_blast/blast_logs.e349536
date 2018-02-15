@@ -1,0 +1,9 @@
+ 	Full Command:                      /local/cluster/ncbi-blast-2.2.31+-rpsbproc/bin/blastn -db /raid1/home/micro/klingesj/grace/Rickettsiales/Refseq/refseq_complete_genomic.fa -evalue 10e-20 -outfmt 6 -num_threads 10 -max_target_seqs 1 -query /raid1/home/micro/klingesj/grace/Rickettsiales/rick1_idba_ud_out/contig.fa -out /raid1/home/micro/klingesj/grace/Rickettsiales/blastnquery 
+	Memory (kb):                       820636 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    12963 
+	CPU (percent):                     473% 
+	Time (seconds):                    516.53 
+	Time (hh:mm:ss.ms):                8:36.53 
+	System CPU Time (seconds):         49.94 
+	User   CPU Time (seconds):         2393.51 

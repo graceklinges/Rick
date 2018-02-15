@@ -1,0 +1,16 @@
+vsearch v2.3.4_linux_x86_64, 503.7GB RAM, 64 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+      1928  Pairs
+      1487  Merged (77.1%)
+       441  Not merged (22.9%)
+ 	Full Command:                      vsearch --fastq_mergepairs /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick.1 --reverse /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick.2 --fastq_allowmergestagger --fasta_width 0 --threads 5 --fastqout /raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa 
+	Memory (kb):                       19400 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    66 
+	CPU (percent):                     29% 
+	Time (seconds):                    0.49 
+	Time (hh:mm:ss.ms):                0:00.49 
+	System CPU Time (seconds):         0.02 
+	User   CPU Time (seconds):         0.12 

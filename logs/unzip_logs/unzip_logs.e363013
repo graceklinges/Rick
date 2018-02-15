@@ -1,0 +1,9 @@
+ 	Full Command:                      unzip /raid1/home/micro/klingesj/labhome/databases/ncbi_taxonomy/taxdmp.zip 
+	Memory (kb):                       1900 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    8899 
+	CPU (percent):                     47% 
+	Time (seconds):                    5.48 
+	Time (hh:mm:ss.ms):                0:05.48 
+	System CPU Time (seconds):         0.63 
+	User   CPU Time (seconds):         1.99 

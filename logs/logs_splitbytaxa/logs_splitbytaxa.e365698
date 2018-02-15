@@ -1,0 +1,18 @@
+java -ea -Xmx104088m -cp /raid1/home/micro/klingesj/labhome/local/bin/bbmap/current/ tax.SplitByTaxa in=/raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa out=%.fa tree=/raid1/home/micro/klingesj/grace/Rickettsiales/tree.taxtree.gz table=/raid1/home/micro/klingesj/grace/Rickettsiales/gitable.int1d.gz level=phylum
+Executing tax.SplitByTaxa [in=/raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa, out=%.fa, tree=/raid1/home/micro/klingesj/grace/Rickettsiales/tree.taxtree.gz, table=/raid1/home/micro/klingesj/grace/Rickettsiales/gitable.int1d.gz, level=phylum]
+
+Exception in thread "main" java.lang.NumberFormatException: For input string: "phylum"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at tax.SplitByTaxa.<init>(SplitByTaxa.java:101)
+	at tax.SplitByTaxa.main(SplitByTaxa.java:46)
+ 	Full Command:                      /raid1/home/micro/klingesj/labhome/local/bin/bbmap/splitbytaxa.sh in=/raid1/home/micro/klingesj/grace/Rickettsiales/bowtie/conc_pair_rick_merged_true.fa out=%.fa tree=/raid1/home/micro/klingesj/grace/Rickettsiales/tree.taxtree.gz table=/raid1/home/micro/klingesj/grace/Rickettsiales/gitable.int1d.gz level=phylum 
+	Memory (kb):                       48348 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    1953 
+	CPU (percent):                     121% 
+	Time (seconds):                    0.29 
+	Time (hh:mm:ss.ms):                0:00.29 
+	System CPU Time (seconds):         0.10 
+	User   CPU Time (seconds):         0.24 

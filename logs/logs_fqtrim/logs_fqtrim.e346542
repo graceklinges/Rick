@@ -1,0 +1,9 @@
+ 	Full Command:                      /nfs1/MICRO/Thurber_Lab/local/bin/fqtrim-0.94.Linux_x86_64/fqtrim -A -l 100 -q 30 -w -D -p 6 -R --pid5 --pid3 -f nextera_adapter -o rick_trimmed lane1-s001-indexN703-S502-AGGCAGAA-CTCTCTAT-22B_S1_L001_R1_001.fastq.gz,lane1-s001-indexN703-S502-AGGCAGAA-CTCTCTAT-22B_S1_L001_R2_001.fastq.gz 
+	Memory (kb):                       27652 
+	# SWAP  (freq):                    0 
+	# Waits (freq):                    3817712 
+	CPU (percent):                     596% 
+	Time (seconds):                    8071.47 
+	Time (hh:mm:ss.ms):                2:14:31 
+	System CPU Time (seconds):         3497.44 
+	User   CPU Time (seconds):         44676.56 
